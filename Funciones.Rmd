@@ -1,0 +1,28 @@
+---
+title: "Functions"
+author: "AdrianRicoy"
+date: "4/6/2020"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Function:
+### name = function(x) { Proccess }
+
+```{r}
+lado = 4
+
+area = function(x) {
+  x^2
+}
+
+area(lado)
+```
+
+Una integral
+$$\int_0^1 x\ dx = \left. \frac{x^2}{2}\right]_0^1 = \frac{1}{3}$$
